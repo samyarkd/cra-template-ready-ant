@@ -5,6 +5,7 @@
   "main": "index.tsx",
   "keywords": [
     "antd",
+    "react-cra-template",
     "cra-template",
     "antd-template",
     "react",
