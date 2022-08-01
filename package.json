@@ -1,6 +1,6 @@
 {
   "name": "cra-template-ready-ant",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Antd ready to use template for admin dashboard",
   "main": "index.tsx",
   "keywords": [
