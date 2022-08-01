@@ -1,0 +1,16 @@
+{
+  "name": "cra-template-ready-ant",
+  "version": "1.0.0",
+  "description": "antd ready to use template for admin dashboard",
+  "main": "index.tsx",
+  "keywords": [
+    "antd",
+    "cra-template",
+    "antd-template",
+    "react",
+    "react-query",
+    "context"
+  ],
+  "author": "samyar kd",
+  "license": "ISC"
+}
