@@ -10,6 +10,14 @@ If you want to use this template easily run bellow command.
 or
 `npm create-react-app my-app --template ready-ant`
 
+if you have any suggestion please tell me 🙏.
+
+Telegram : https://t.me/samyar_kd
+
+Email : samyarkd@gmail.com
+
+Github: https://github.com/samyarkd/cra-template-ready-ant
+
 ### Start development
 
 `$ yarn start `
