@@ -2,18 +2,26 @@
 
 Ready to use antd react cra template
 
+### Create react app
+
+If you want to use this template easily run bellow command.
+
+`yarn create react-app my-app --template ready-ant`
+or
+`npm create-react-app my-app --template ready-ant`
+
 ### Start development
 
 `$ yarn start `
 
 ### Some notes
 
-- Please take a look at the structure especial `layout` folder and `routeHandler`
+- Please take a look at the structure especially `layout` folder and `routeHandler`
 - All styles are in `less` folder
 
 ### Add route
 
-If you want to add new route follow bello steps
+If you want to add new route follow bellow steps
 
 - Go to pages and create a new page.
 - Go to `app/routes.ts` and add your route into the routes(title, icon, element, path).
