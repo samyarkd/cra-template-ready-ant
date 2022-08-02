@@ -27,6 +27,10 @@ Github: https://github.com/samyarkd/cra-template-ready-ant
 - Please take a look at the structure especially `layout` folder and `routeHandler`
 - All styles are in `less` folder
 
+### RTL
+
+For RTL layout you can really easily customize antd in `app/antd.config.ts`
+
 ### Add route
 
 If you want to add new route follow bellow steps
