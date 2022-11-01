@@ -2,7 +2,7 @@
   "name": "cra-template-ready-ant",
   "version": "1.0.2",
   "description": "Antd ready to use template for admin dashboard",
-  "main": "index.tsx",
+  "main": "main.tsx",
   "keywords": [
     "antd",
     "react-cra-template",
@@ -10,14 +10,14 @@
     "antd-template",
     "react",
     "react-query",
-    "context"
+    "vite"
   ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/samyarkd/cra-template-ready-ant.git"
   },
   "author": {
-    "name": "Samyar Kd",
+    "name": "Samyar",
     "email": "samyarkd@gmail.com"
   },
   "bugs": {
