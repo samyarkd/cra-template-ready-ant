@@ -1,4 +1,4 @@
-import Fa from "./fa";
+import * as Fa from "./fa";
 
 const Lang = Fa;
 

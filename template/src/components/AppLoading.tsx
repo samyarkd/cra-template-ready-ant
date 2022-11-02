@@ -4,7 +4,7 @@ import { Spin } from "antd";
 const AppLoading = () => {
   return (
     <div className="app-loading">
-      <Spin tip={Lang.default.loading_page} />
+      <Spin tip={Lang.components.default.loading_page} />
     </div>
   );
 };

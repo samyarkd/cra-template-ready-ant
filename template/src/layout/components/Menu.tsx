@@ -1,14 +1,14 @@
+import { usePanelRoutes } from "@/hooks/usePanelRoutes";
 import { Menu } from "antd";
 import { MenuProps } from "rc-menu";
 import React from "react";
-import { useLocation, useNavigate } from "react-router-dom";
-import { menuRoutes } from "./menuRoutes";
+import { useNavigate } from "react-router-dom";
 
-const AppMenu = ({ theme = "dark" }: { theme: "light" | "dark" }) => {
+const AppMenu = ({ theme = "dark" }: { theme?: "light" | "dark" }) => {
   const navigate = useNavigate();
-  const location = useLocation();
+  const menuRoutes = usePanelRoutes();
 
-  const items: MenuProps["items"] = menuRoutes.map((route) => {
+  const items: MenuProps["items"] = menuRoutes.routes.map((route) => {
     return {
       key: route.path,
       icon: React.createElement(route.icon),
@@ -22,8 +22,8 @@ const AppMenu = ({ theme = "dark" }: { theme: "light" | "dark" }) => {
       theme={theme}
       mode="vertical"
       items={items}
-      activeKey={location.pathname.split("/")[2]}
-      selectedKeys={[location.pathname.split("/")[2]]}
+      activeKey={menuRoutes.activeRoute.path}
+      selectedKeys={[menuRoutes.activeRoute.path]}
     />
   );
 };

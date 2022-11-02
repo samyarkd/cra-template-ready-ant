@@ -1,3 +1,2 @@
-import * as Fa from "./components/loading.lang";
-
-export default Fa;
+export * as components from "./components/loading.lang";
+export * as routes from "./routes.lang";

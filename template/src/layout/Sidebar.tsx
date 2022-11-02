@@ -16,7 +16,6 @@ const Sidebar = () => {
         collapsible
         onCollapse={toggle}
         collapsed={collapsed}
-        collapsedWidth={50}
         width={260}
         breakpoint="lg"
       >

@@ -1,13 +1,13 @@
-import { useStore } from "@/store/store";
+import { useEffect } from "react";
+import { useNavigate } from "react-router";
 
 const index = () => {
-  const state = useStore();
+  const navigate = useNavigate();
+  useEffect(() => {
+    navigate("app");
+  }, []);
 
-  return (
-    <>
-      <div>{JSON.stringify(state.collapsed)}</div>;
-    </>
-  );
+  return <div></div>;
 };
 
 export default index;

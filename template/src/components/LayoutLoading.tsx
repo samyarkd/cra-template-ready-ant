@@ -4,7 +4,7 @@ import { Spin } from "antd";
 const LayoutLoading = () => {
   return (
     <div className="layoutLoading">
-      <Spin size="large" tip={Lang.default.loading_data} />
+      <Spin size="large" tip={Lang.components.default.loading_data} />
     </div>
   );
 };
