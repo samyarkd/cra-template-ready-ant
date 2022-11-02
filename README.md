@@ -8,15 +8,13 @@ If you want to use this template easily run bellow command.
 
 `yarn create react-app my-app --template ready-ant`
 or
-`npm create-react-app my-app --template ready-ant`
+`npx create-react-app my-app --template ready-ant`
 
-if you have any suggestion please tell me 🙏.
-
-Telegram : https://t.me/samyar_kd
-
-Email : samyarkd@gmail.com
-
-Github: https://github.com/samyarkd/cra-template-ready-ant
+### What are we using  ?
+ - Vite
+ - Zustand
+ - React-query
+ - Ant Design
 
 ### Start development
 
@@ -24,8 +22,9 @@ Github: https://github.com/samyarkd/cra-template-ready-ant
 
 ### Some notes
 
-- Please take a look at the structure especially `layout` folder and `routeHandler`
+- Please take a look at the structure especially `layout` folder and `usePanelRoutes`
 - All styles are in `less` folder
+- File-based Router (Remix style)
 
 ### RTL
 
@@ -36,15 +35,16 @@ For RTL layout you can really easily customize antd in `app/antd.config.ts`
 If you want to add new route follow bellow steps
 
 - Go to pages and create a new page.
-- Go to `app/routes.ts` and add your route into the routes(title, icon, element, path).
 - Done. 🤗
+
+**Note** : Routing system is file-based (Remix style)
+Learn more : https://remix.run/docs/en/v1/guides/routing
 
 ### Change Theme
 
 There are two ways of customizing theme - less variables and craco
 
 - Less : go to `less/abstracts/_variables.less` and your antd variables
-- Craco: go to `craco.config.js` and in less options `modifyVars` change antd variables
 
 ### Folder Structure
 
@@ -52,14 +52,19 @@ Bellow structure is just the surface of the structure.
 
 ```
     src /
-        | ./app
         | ./components
-        | ./context
         | ./hooks
         | ./layout
         | ./less
-        | ./pages
-        | ./services
-        | ./utils
+        | ./pages // => Router is here (You can change it in vite config)
+        | ./types
+        | ./store
         | index.ts
 ```
+
+
+if you have any suggestion please tell me 🙏.
+
+Telegram : https://t.me/samyar_kd
+
+Email : samyarkd@gmail.com
